@@ -1,4 +1,4 @@
-const EventEmitter = require("events");
+const EventEmitter = require("node:events");
 
 // Create an event emitter instance
 const myEmitter = new EventEmitter();
