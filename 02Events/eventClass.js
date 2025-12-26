@@ -1,6 +1,7 @@
 const EventEmitter = require("node:events");
 
 class MyEmitter extends EventEmitter {
+
   sendMessage(message) {
     console.log("Sending message:", message);
     this.emit("message", message);
